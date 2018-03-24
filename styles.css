@@ -1,0 +1,110 @@
+.content {
+	width: 100%;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #7d97ad;
+}
+
+/*header, nav, footer, section, div {
+	box-sizing: border-box;
+}*/
+
+/*
+ *
+ * Header
+ *
+ */
+
+header {
+	width: 100%;
+	min-height: 50px;
+	padding: 10px;
+}
+
+.logo {
+	max-height: 100%;
+	margin-right: 5px;
+	vertical-align: top;
+	/*margin-top: 15px;*/
+	margin-bottom: 15px;
+	float: left;
+}
+
+.title {
+	font-size: large;
+	text-transform: uppercase;
+	text-align: right;
+	vertical-align: top;
+	margin-right: 5px;
+	margin-top: 15px;
+	margin-bottom: -5px;
+	color: #2d3c49;
+}
+
+.subtitle {
+	margin-top: -10px;
+}
+
+hr {
+	width: 100%;
+	height: 1px;
+	color: #7d97ad;
+}
+
+/*
+ *
+ * Main
+ *
+ */
+
+.about_me {
+	margin-top: -15px;
+}
+
+.one_block {
+	width: 100%;
+	text-align: center;
+	color: #2d3c49;
+	margin-bottom: 30px;
+
+
+}
+
+.proj_title {
+	margin: -10px;
+	text-transform: uppercase;
+}
+
+.proj_source {
+	color: #7d97ad;
+	font-size: 12px;
+	text-decoration:
+}
+
+ /*
+  *
+  * Footer
+  *
+  */
+footer{
+	width: 100%;
+}
+
+.contact {
+	width: 100%;
+	background-color: #7d97ad;
+	padding: 10px;
+}
+
+.social-icon {
+	display: inline;
+	vertical-align: middle;
+	padding: 5px;
+
+}
+.social-reference {
+	padding: 20px;
+	display: inline;
+	text-decoration-line: blink;
+	color: #2d3c49;
+}
