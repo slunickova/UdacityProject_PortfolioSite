@@ -51,9 +51,10 @@ h1 {
 
 hr {
 	width: 100%;
-	size: 4px;
+	height: 2px;
+	border-width: 0;
 	color: #7d97ad;
-	noshade;
+	background-color: #7d97ad;
 }
 
 /*
@@ -79,7 +80,6 @@ hr {
 	width: 100%;
 	text-align: center;
 	color: #2d3c49;
-	margin-right: ;
 	margin-bottom: 30px;
 	box-sizing: border-box;
 
@@ -121,6 +121,6 @@ footer{
 .social-reference {
 	padding: 10px;
 	display: inline;
-	text-decoration-line: blink;
+	text-decoration-line: none;
 	color: #2d3c49;
 }
