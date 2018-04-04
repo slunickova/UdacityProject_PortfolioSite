@@ -5,6 +5,10 @@
 	color: #7d97ad;
 }
 
+img {
+	max-width: 100%;
+}
+
 /*header, nav, footer, section, div {
 	box-sizing: border-box;
 }*/
@@ -17,28 +21,28 @@
 
 header {
 	width: 100%;
-	min-height: 50px;
-	padding: 10px;
+	margin: 10px;
 }
 
 .logo {
-	max-height: 100%;
-	margin-right: 5px;
+	margin-left: 10px;
+	margin-top: 10px;
 	vertical-align: top;
-	/*margin-top: 15px;*/
-	margin-bottom: 15px;
 	float: left;
 }
 
 .title {
-	font-size: large;
+	width: 100%;
+	font-size: 18px;
+	margin-right: 10px;
 	text-transform: uppercase;
 	text-align: right;
 	vertical-align: top;
-	margin-right: 5px;
-	margin-top: 15px;
-	margin-bottom: -5px;
 	color: #2d3c49;
+}
+
+h1 {
+	margin-top: 10px;
 }
 
 .subtitle {
@@ -47,8 +51,9 @@ header {
 
 hr {
 	width: 100%;
-	height: 1px;
+	size: 4px;
 	color: #7d97ad;
+	noshade;
 }
 
 /*
@@ -58,15 +63,25 @@ hr {
  */
 
 .about_me {
-	margin-top: -15px;
+	margin: 10px;
+}
+
+.work {
+	margin: 10px;
+}
+
+.projects {
+	text-align: center;
+	justify-content: space-between;
 }
 
 .one_block {
 	width: 100%;
 	text-align: center;
 	color: #2d3c49;
+	margin-right: ;
 	margin-bottom: 30px;
-
+	box-sizing: border-box;
 
 }
 
@@ -78,7 +93,7 @@ hr {
 .proj_source {
 	color: #7d97ad;
 	font-size: 12px;
-	text-decoration:
+	word-wrap: break-word;
 }
 
  /*
@@ -94,6 +109,7 @@ footer{
 	width: 100%;
 	background-color: #7d97ad;
 	padding: 10px;
+	text-align: center;
 }
 
 .social-icon {
@@ -103,7 +119,7 @@ footer{
 
 }
 .social-reference {
-	padding: 20px;
+	padding: 10px;
 	display: inline;
 	text-decoration-line: blink;
 	color: #2d3c49;
