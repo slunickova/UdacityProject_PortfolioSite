@@ -1,0 +1,72 @@
+.projects, footer, header, .intro {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*header*/
+
+@media screen and (max-width: 300px) {
+	.title {
+		font-size: 10px;
+		width: 75%;
+	}
+	.logo {
+		width: 10%;
+	}
+}
+
+@media screen and (min-width: 301px) and (max-width: 429px) {
+	.title {
+		font-size: 12px;
+		width: 80%;
+	}
+	.logo {
+		width: 10%;
+	}
+}
+
+@media screen and (min-width: 430px) {
+	.title {
+		width: 80%;
+	}
+	.logo {
+		width: 15%;
+	}
+}
+
+/*main part of the page*/
+
+@media screen and (min-width: 400px) {
+  .one_block {
+    width: 43%;
+  }
+}
+
+@media screen and (min-width: 650px) {
+  .one_block {
+    width: 30%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+	.one_block {
+		width: 23%;
+	}
+}
+
+/*footer*/
+
+@media screen and (max-width: 450px) {
+	.social-text {
+		display: none;
+	}
+	.social-reference {
+		padding: 15px;
+	}
+}
+
+@media screen and (max-width: 220px) {
+	.social-reference {
+		padding: 7px;
+	}
+}
